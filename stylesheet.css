@@ -70,38 +70,35 @@ body {
 
 .two {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.23);
-	border-radius: 20px;
-	padding: 20px;
-	display: grid;
+	border-radius: 5px;
+	padding-top: 0px;
 	grid-column: 3;
- 	 grid-row: 1;
+ 	grid-row: 1;
 	
 }
-#bTitle {
+.bTitle {
 	text-align: center;
-	background: #DFFFC9;
-	line-height: 55px;
-	border-bottom: #333300 double;
-	border-top: #333300 double;
-	border-radius: 20px;
+	font-size: 78px;
 	color: black;
+	float:top;
 }
 
-.bioColumns {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
+.intro{
+	font-size: 18px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
 }
+
 .bioPic {
-	display:block;
-	width: 7em;
+	
+	width: 18em;
 	height:auto;
-	border:thin #000000;
-	border-radius: 100%;
+	/*border:thin #000000;
+	border-radius: 100%;*/
+	padding-bottom: 25px;
 }
-.resourceBox {
-	text-align: center;
-	padding: 20px;
-}
+
 .imageResize {
 	max-width:100%;
 	height: auto;
