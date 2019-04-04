@@ -1,0 +1,4 @@
+<?php
+echo "hello I'm in the handler"
+echo "<pre>" , print_r($_POST, 1), "</pre>";
+?>
