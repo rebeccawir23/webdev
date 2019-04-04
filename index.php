@@ -1,3 +1,6 @@
+<
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +12,7 @@
 </head>
 <div class="topnav">
   	<a class="active" href="#home">Home</a>
+    <a href="#login">Login</a>
   	<a href="#exec">Exec Board</a>
 	<a href="#about">About Us</a>
   	<a href="#cal">Calander</a>
@@ -17,14 +21,14 @@
 	</div>
 
 	
-	<center>
+	
         
     <?php
+        include_once 'login.php';
         
-        echo "Hellooooo"
         ?>
-        
-  
+       
+<center>  
   <h1>Boise State Student IMPACT Board</h1>
   
 </center>
