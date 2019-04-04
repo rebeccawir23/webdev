@@ -1,4 +1,16 @@
-<?php
-echo "hello I'm in the handler"
-echo "<pre>" , print_r($_POST, 1), "</pre>";
-?>
+div {
+  margin-bottom: 5px;
+}
+
+#message {
+  width: 300px;
+  padding: 10 10;
+  margin: 10 10;
+  background-color: red;
+  color: white;
+}
+
+#logout {
+  float:right;
+  margin-right: 50px;
+}

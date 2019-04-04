@@ -12,19 +12,21 @@
 </head>
 <div class="topnav">
   	<a class="active" href="#home">Home</a>
-    <a href="#login">Login</a>
+    <a href="login.php">Login</a>
+    <a href="signup.php">Sign Up</a>
   	<a href="#exec">Exec Board</a>
 	<a href="#about">About Us</a>
   	<a href="#cal">Calander</a>
   	<a href="#member">Members</a>
 	<a href="#events">Events</a>
+
 	</div>
 
 	
 	
         
     <?php
-        include_once 'login.php';
+        
         
         ?>
        
