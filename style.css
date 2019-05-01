@@ -1,58 +1,62 @@
-body {
-  background-color: #CCCCCC;
+body{
+    margin: 0;
+    padding: 0;
+    background: url(IMPACT/image16.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
 
-div {
-  margin-bottom:10px;
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
 }
 
-.message {
-  width: 300px;
-  padding: 10 10;
-  margin: 10 10;
-  color: red;
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
 }
 
-.good {
-  background-color: green;
+.forminput{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
 }
 
-.bad {
-  background-color: red;
-}
-
-
-#blue_highlight {
-  background-color: blue;
-}
-
-.highlight {
-  background-color: yellow;
-}
-table, td, th { 
-  border: 2px solid black; 
-}
-table { 
-  border-collapse: collapse; 
+.forminput input{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 
-.big {
-  font-size: 50px;
+.forminput input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px, solid, #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
 }
 
-h1 {
-  font-family: Helvetica;
-  font-size: 40px;
-}
-h1:hover { 
-  color: #FF00FF; 
-  visibility:hidden;
-}
-
-p {
-  line-height: 30px;
-  border: 2px black dotted;
-  padding: 20px 5px;
-  margin-bottom: 40px;
+.forminput input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    font-size: 16px;
 }
