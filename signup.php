@@ -18,7 +18,7 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
 </head>
 <link rel="stylesheet" href="stylesheet.css">
 <section class="main-container">
-    <div class="main-wrapper">
+    <div class="enter">
         <h2>Add User</h2>
         <form class="signup-form" action="signup.inc.php" method="POST">
             <input type="text" name="first" placeholder="First Name">

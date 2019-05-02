@@ -46,6 +46,7 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
 	
 <div class = "members" >
     <table border="1">
+<title>Exec Members</title>        
   <tr>
     <th>First</th>
     <th>Last</th>
@@ -59,7 +60,16 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
     <td>Wirick</td>
     <td>rebecca.wirick@u.boisestate.edu</td>
     <td>VP of Marketing</td>
-      <td>4</td>
+    <td>Junior</td>
+   
+  </tr>
+        
+<tr>
+    <td>Kaleb</td>
+    <td>Smith</td>
+    <td>...@u.boisestate.edu</td>
+    <td>President</td>
+    <td>Junior</td>
    
   </tr>
 </table>
