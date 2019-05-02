@@ -50,7 +50,6 @@ if(isset($_POST['submit'])){
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <head>
-    <h1>Login</h1>
     <link rel = "stylesheet" type ="text/css" href = "style.css">
 <body>
         
