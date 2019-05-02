@@ -1,8 +1,7 @@
 <?php
     
 
-session_start();
-    }
+    ?>
 
 
 <link rel = "stylesheet"
@@ -16,7 +15,3 @@ session_start();
 
 	</div> 
 
-  <center>  
-  <h1>Boise State Student IMPACT Board</h1>
-  
-</center>
