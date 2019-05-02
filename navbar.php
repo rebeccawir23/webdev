@@ -6,7 +6,7 @@ session_start();
         include_once 'navbarL.php'; 
     }
 
-
+?>
 <link rel = "stylesheet"
    type = "text/css"
    href = "stylesheet.css" />
