@@ -36,6 +36,12 @@ p {
 	font-family: Gotham;
 }
 
+.topnav h1{
+    font-size: 52px;
+	font-family: 'Gotham';
+	color: #D64309;
+}
+
 .topnav a{
 	color: #D64309;
 	padding-right: 50px;

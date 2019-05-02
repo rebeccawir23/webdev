@@ -23,11 +23,6 @@
     ?>
 
 	
-	
-<center>  
-  <h1>Boise State Student IMPACT Board</h1>
-  
-</center>
 </html>
 <html>
 
@@ -39,7 +34,6 @@
 	</div>
   <div class="two">
 	  <div class="makeanimpact">
-	  <h3 class="bTitle">Make an IMPACT</h3></div>
 	  <div class="logo">
 	  <center><img src="IMPACT/impact board logo.png" class="bioPic"></center></div>
 	  <div class="intro"><center>
