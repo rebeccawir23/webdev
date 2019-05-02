@@ -12,8 +12,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
-	<a href="#events">LOGGED IN</a>
-
+<div class = "topnav">
+	<p>LOGGED IN</p>
+</div>
 	
 

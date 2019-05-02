@@ -45,6 +45,6 @@ Our focus is involvement, motivation, philanthropy, advancement, community and t
 	</div>
  
 </div>
-	
+    </div>
 </body>
 </html>

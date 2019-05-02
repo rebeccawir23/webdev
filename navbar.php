@@ -14,7 +14,7 @@
 <div class="topnav">
   	<a class="active" href="index.php">Home</a>
     <a href="login.php">Login</a>
-    <a href="signup.php">Sign Up</a>
+    <a href="signup.php">Add User</a>
   	<a href="exec.php">Exec Board</a>
 	<a href="aboutUs.php">About Us</a>
   	<a href="#cal">Calander</a>
