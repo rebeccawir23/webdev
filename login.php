@@ -3,6 +3,14 @@
     include_once 'navbar.php';
 
 
+  $messages[] = "You must log in to access this page";
+  $valid = false;
+
+
+if (!$valid) {
+    $_SESSION['messages'] = $messages;
+}
+
 if(isset($_POST['submit'])){
    
     $uid = "user";
@@ -57,7 +65,8 @@ if(isset($_POST['submit'])){
             <div class="nav-login">
          <div class= "forminput">
           <form action="login.php" method = "POST">
-                    <div>Login</div>
+                    <h1>Login</h1>
+                    <p>*You must be logged in </p>
                     <input type="text" name="uid" placeholder="username/email">
                     <input type="password" name="pwd" placeholder="password">
                     <button type="submit" name="submit">Login</button>
