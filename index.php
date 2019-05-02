@@ -1,8 +1,14 @@
-<
-
 
 <!DOCTYPE html>
 <html>
+    
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
 <head>
 <link rel = "stylesheet"
    type = "text/css"
@@ -10,26 +16,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<div class="topnav">
-  	<a class="active" href="#home">Home</a>
-    <a href="login.php">Login</a>
-    <a href="signup.php">Sign Up</a>
-  	<a href="#exec">Exec Board</a>
-	<a href="#about">About Us</a>
-  	<a href="#cal">Calander</a>
-  	<a href="#member">Members</a>
-	<a href="#events">Events</a>
 
-	</div>
-
-	
-	
-        
     <?php
-        
-        
-        ?>
-       
+    session_start();
+    include_once 'navbar.php';
+    ?>
+
+	
+	
 <center>  
   <h1>Boise State Student IMPACT Board</h1>
   

@@ -10,12 +10,12 @@ body{
 .loginbox{
     width: 320px;
     height: 420px;
-    background: orange;
+    background: #D64309;
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-100%, -50%);
+    transform: translate(-50%, -100%);
     box-sizing: border-box;
     padding: 70px 30px;
 }
@@ -40,10 +40,20 @@ h1{
 }
 
 
+.forminput input[type="text"], input[type="username"]{
+    border: none;
+    border-bottom: 1px, solid, #fff;
+    background: white;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
 .forminput input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px, solid, #fff;
-    background: transparent;
+    background: white;
     outline: none;
     height: 40px;
     color: #fff;

@@ -55,20 +55,24 @@ if(isset($_POST['submit'])){
 <body>
         
      <div class = "loginbox">
-         <li><a href="index.php">Login</a></li>
             <div class="nav-login">
          <div class= "forminput">
           <form action="login.php" method = "POST">
+                    <div>Login</div>
                     <input type="text" name="uid" placeholder="username/email">
                     <input type="password" name="pwd" placeholder="password">
                     <button type="submit" name="submit">Login</button>
                 </form></div>
-         <h3><a href="signup.php">Sign Up</a></h3>
+         
+    </div>
     </div>
     </body>
-    
-    
 </head>
+
+ 
+    
+    
+
 
 
 
