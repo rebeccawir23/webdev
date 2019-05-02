@@ -49,7 +49,15 @@ if(isset($_POST['submit'])){
 
 ?>
 
-
+<style>
+    body{
+    margin: 0;
+    padding: 0;
+    background: url(IMPACT/image16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+</style>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
