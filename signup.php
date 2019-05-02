@@ -18,9 +18,6 @@
         <form class="signup-form" action="signup.inc.php" method="POST">
             <input type="text" name="first" placeholder="First Name">
             <input type="text" name="last" placeholder="Last Name">
-            <input type="text" name="email" placeholder="E-Mail">
-            <input type="text" name="position" placeholder="Position">
-            <input type="text" name="classYear" placeholder="Class Year">
             <button type="submit" name="submit">Sign Up</button>
 
         

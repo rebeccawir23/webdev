@@ -10,22 +10,6 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
 
 
 
-$connection = mysql_connect('localhost', 'root', ''); //The Blank string is the password
-mysql_select_db('impactmembers');
-
-$query = "SELECT * FROM exec_members"; //You don't need a ; like you do in SQL
-$result = mysql_query($query);
-
-echo "<table>"; // start a table tag in the HTML
-
-while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
-echo "<tr><td>" . $row['first'] . "</td><td>" . $row['last'] . "</td></tr>";  //$row['index'] the index here is a field name
-}
-
-echo "</table>"; //Close the table in HTML
-
-mysql_close(); 
-
 
 ?>
 
@@ -42,6 +26,23 @@ mysql_close();
 <body>
 	
 <div class = "members" >
+    <table border="1">
+  <tr>
+    <th>First</th>
+    <th>Last</th>
+    <th>email</th>
+    <th>Position</th>
+    <th>Class RAnk</th>
+   
+  </tr>
+  <tr>
+    <td>Rebecca</td>
+    <td>Wirick</td>
+    <td>rebecca.wirick@u.boisestate.edu</td>
+    <td>VP of Marketing</td>
+   
+  </tr>
+</table>
                     
     </div>
 	
