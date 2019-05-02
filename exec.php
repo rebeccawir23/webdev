@@ -1,9 +1,9 @@
 
 <?php
-    
+session_start();
 include_once 'navbar.php';
 
-session_start();
+
 if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
         header("Location: login.php");
 }
