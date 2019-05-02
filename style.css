@@ -9,23 +9,22 @@ body{
 
 .loginbox{
     width: 320px;
-    height: 300px;
+    height: 420px;
     background: #D64309;
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, 0%);
     box-sizing: border-box;
-    padding: 50px 10px;
+    padding: 70px 30px;
 }
 
 h1{
     margin: 0;
-    padding: 5px 5px 5px;
+    padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
-    color: blue;
 }
 
 .forminput{
@@ -41,6 +40,16 @@ h1{
 }
 
 
+.forminput input[type="text"], input[type="username"]{
+    border: none;
+    border-bottom: 1px, solid, #fff;
+    background: white;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    
+}
 .forminput input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px, solid, #fff;

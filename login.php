@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <head>
-
+    <h1>Login</h1>
     <link rel = "stylesheet" type ="text/css" href = "style.css">
 <body>
         
@@ -58,7 +58,7 @@ if(isset($_POST['submit'])){
             <div class="nav-login">
          <div class= "forminput">
           <form action="login.php" method = "POST">
-                    <h1>Login</h1>
+                    <div>Login</div>
                     <input type="text" name="uid" placeholder="username/email">
                     <input type="password" name="pwd" placeholder="password">
                     <button type="submit" name="submit">Login</button>

@@ -1,11 +1,11 @@
 
 <?php
     
-    include_once 'navbar.php';
+include_once 'navbar.php';
 
 session_start();
 if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
-        header("Location: login.php?login=error");
+        header("Location: login.php");
 }
 
 // if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
@@ -51,7 +51,7 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
     <th>Last</th>
     <th>email</th>
     <th>Position</th>
-    <th>Class RAnk</th>
+    <th>Class Rank</th>
    
   </tr>
   <tr>
@@ -59,6 +59,7 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
     <td>Wirick</td>
     <td>rebecca.wirick@u.boisestate.edu</td>
     <td>VP of Marketing</td>
+      <td>4</td>
    
   </tr>
 </table>
