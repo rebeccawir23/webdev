@@ -8,9 +8,9 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
         header("Location: login.php?login=error");
 }
 
-// if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
-//        header("Location: execlogged.php");
-//    }
+ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
+        header("Location: execedit.php");
+    }
 
 
 //$connection = mysql_connect('localhost', 'root', ''); //The Blank string is the password
