@@ -16,7 +16,7 @@ if(!isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false){
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="stylesheet.css">
 <section class="main-container">
     <div class="main-wrapper">
         <h2>Add User</h2>

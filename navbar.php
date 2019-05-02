@@ -21,9 +21,9 @@
   	<a href="#member">Members</a>
 	
 
-	</div> 
+
 
   <center>  
   <h1>Boise State Student IMPACT Board</h1>
   
-</center>
+</center></div> 
