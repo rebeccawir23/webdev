@@ -57,8 +57,6 @@ if(isset($_POST['submit'])){
      <div class = "loginbox">
          <li><a href="index.php">Login</a></li>
             <div class="nav-login">
-                <form action="includes/login.inc.php" method = "POST">
-                    <form action="login.inc.php" method = "POST">
          <div class= "forminput">
           <form action="login.php" method = "POST">
                     <input type="text" name="uid" placeholder="username/email">
