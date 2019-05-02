@@ -4,7 +4,6 @@ body{
     background: url(IMPACT/image16.jpg);
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
 }
 
 .loginbox{
@@ -17,10 +16,10 @@ body{
     position: absolute;
     transform: translate(-50%, -45%);
     box-sizing: border-box;
-    padding: 30px 20px;
+    padding: 20px 20px;
 }
-    
-h1{
+
+.loginbox h1{
     margin: 0;
     padding-bottom: 20px;
     text-align: center;
